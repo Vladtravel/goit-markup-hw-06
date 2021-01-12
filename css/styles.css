@@ -556,6 +556,8 @@ ul {
 }
 .main-footer {
   display: flex;
+  
+  
 }
 .footer-first {
   margin-right: 70px;
@@ -626,6 +628,75 @@ ul {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+
+.footer-third{
+  margin-left: 93px;
+  
+}
+.form-label{
+display: block;  
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text-color-white);
+margin-top: 12px;
+margin-bottom: 20px;
+cursor: pointer;
+}
+
+.form-input{
+
+width: 358px;
+height: 50px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+padding: 15px 16px;
+margin: 0;
+background-color: transparent;
+
+}
+
+.input-button{
+  display: flex;
+}
+.submit-button{
+display: flex;
+width: 200px;
+height: 50px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-left: 12px;
+margin-right: 0;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+padding-left: 29px;
+letter-spacing: 0.06em;
+color: var(--text-color-white);
+cursor: pointer;
+
+}
+.submit-button::after{
+  content: "";  
+  background-image: url(../images/iconsend.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  
+}
+
 /* Портфолио */
 
 .button-link .button {
